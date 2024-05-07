@@ -26,15 +26,24 @@ There are two ways for installing the plugin:
 
 Clone or download the next git repository into your WordPress wp-content/plugins directory
 ```
- https://github.com/dtprog/rmk-events 
+ git clone git@github.com:Dtprog/rmk-events.git
  ```
 
 ### 2. Install the plugin using docker compose:
 Clone or download the docker-compose file from the repository 
 ```
- https://github.com/dtprog/rmk-events-docker-compose 
+ git clone git@github.com:Dtprog/rmk-events-composer.git
  ```
-Go to the directory with this downloaded/cloned file and run the command:
+
+Go to the directory with this downloaded/cloned files. 
+```
+.
+..
+Dockerfile
+dcoker-compose.yml
+```
+Run the command:
+
 ```
 docker-compose up -d
 ```
@@ -42,5 +51,7 @@ docker-compose up -d
 
 ## Settings
 
-Enter the admin zone of the project and go into Plugins menu item. There you can see our plugin named RMK Events Plugin.
-Once activated, you will see the Events menu item appear.
+Enter the admin zone of the project and go into Plugins menu item. There you can see the plugin named "RMK Events Plugin".
+Once activated, you will see the Events menu item appear. There you can add all events.
+
+Create a new Page to show there all added events. Choose RMK Events as this new page template. 
